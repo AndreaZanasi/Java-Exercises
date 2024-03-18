@@ -38,5 +38,7 @@ public class App {
         for (int i = 0; i < people.length; i++) {
             System.out.println(people[i]);
         }
+
+        //Le classi Client Employee e Programmer hanno ereditato le caratteristiche di Person
     }
 }
