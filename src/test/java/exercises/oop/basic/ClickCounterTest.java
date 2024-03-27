@@ -1,5 +1,6 @@
-package exercises.oop;
+package exercises.oop.basic;
 
+import exercises.oop.basic.ClickCounter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,5 +1,6 @@
-package exercises.oop;
+package exercises.oop.basic;
 
+import exercises.oop.basic.BankAccount;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

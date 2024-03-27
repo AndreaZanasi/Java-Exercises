@@ -1,4 +1,4 @@
-package exercises.oop;
+package exercises.oop.basic;
 
 import java.awt.*;
 

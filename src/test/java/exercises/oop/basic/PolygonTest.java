@@ -1,5 +1,6 @@
-package exercises.oop;
+package exercises.oop.basic;
 
+import exercises.oop.basic.Polygon;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -9,14 +10,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PolygonTest {
     public static final double DELTA = 1e-06;
-    Polygon square;
-    Polygon triangle;
-    Polygon oddlyPoly;
+    exercises.oop.basic.Polygon square;
+    exercises.oop.basic.Polygon triangle;
+    exercises.oop.basic.Polygon oddlyPoly;
     
     @BeforeEach
     void setUp() {
-        square = new Polygon(new Point[]{new Point(0,0), new Point(0, 10), new Point(10,10), new Point(10, 0)});
-        triangle = new Polygon(new Point[]{new Point(0,0), new Point(10, 0), new Point(5,10)});
+        square = new exercises.oop.basic.Polygon(new Point[]{new Point(0,0), new Point(0, 10), new Point(10,10), new Point(10, 0)});
+        triangle = new exercises.oop.basic.Polygon(new Point[]{new Point(0,0), new Point(10, 0), new Point(5,10)});
         oddlyPoly = new Polygon(new Point[]{
                         new Point(0,0), new Point(0,2), new Point(1,2), new Point(1,6),
                         new Point(0,6), new Point(0,8), new Point(3,8), new Point(3,6),
